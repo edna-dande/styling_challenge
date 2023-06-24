@@ -1,0 +1,58 @@
+.image {
+    padding: 25px;
+}
+.background {
+    background-image: url("");
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    
+}
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 220px;
+    color: #b3b8bb;
+    
+}
+.navigation a {
+    margin: 20px;
+    
+}
+.title {
+    color: white;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+.text {
+    text-align: justify;
+    padding-left: 80px;
+    color: #b3b8bb;
+    padding-top: 20px;
+}
+.horizontal{
+    color: #b3b8bb;
+}
+.text2{
+    text-align: center;
+    text-decoration: dotted;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.section3{
+    background-color: #f8f4fc;
+}
+.expertise{
+    color: #9ca4ac;
+}
+.grid-container {
+    display: flex;
+    gap: 10px;
+    text-align: justify;
+}
