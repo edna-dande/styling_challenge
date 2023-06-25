@@ -1,13 +1,41 @@
 .image {
     padding: 25px;
+    float: left;
+}
+.image2 {
+    width: 16px;
+    height: 16px;
+    padding-top: 11px;
+}
+.image3 {
+    
+    width: 10px;
+    height: 10px;
+    margin-left: 49%;
+    margin-top: 13%;
+
+}
+.logos {
+    float: left;
+}
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-bottom: unset;
+}
+.tech {
+    font-size: xx-small;
+    color: white;
+    
 }
 .background {
-    background-image: url("");
+    background-image: url("background.png");
     background-color: grey;
     background-repeat: no-repeat;
     background-size: cover;
     height: 480px;
-    
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .navigation {
     display: flex;
@@ -15,20 +43,24 @@
     list-style: none;
     text-align: right;
     padding-top: 40px;
-    padding-bottom: 80px;
-    padding-left: 220px;
+    padding-left: 200px;
     color: #b3b8bb;
     
 }
 .navigation a {
-    margin: 20px;
+    margin: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+    float: right;
     
 }
 .title {
     color: white;
     text-decoration: none;
     padding-left: 80px;
-    padding-bottom: 20px;
+    font-size: 60px;
+    padding-right: 50px;
 }
 .text {
     text-align: justify;
@@ -37,22 +69,102 @@
     padding-top: 20px;
 }
 .horizontal{
-    color: #b3b8bb;
+    color: rgb(93, 89, 89);
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .text2{
     text-align: center;
     text-decoration: dotted;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-style: italic;
+}
+.number {
+    color: #2b9765;
+    font-size: 30px;
+    margin-bottom: unset;
+}
+.number2 {
+    font-size: xx-small;
+    margin-left: 20px;
+}
+.hang {
+    float: left;
+    
+}
+.intro {
+    margin-left: 400px;
 }
 .section3{
     background-color: #f8f4fc;
 }
 .expertise{
     color: #9ca4ac;
+    padding-top: 30px;
 }
-.grid-container {
+.container {
     display: flex;
     gap: 10px;
     text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.boxes {
+    display: flex;
+}
+.images {
+    display: flex;
+    
+}
+.section8{
+    background-color: #202930;
+}
+.last{
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+.text3{
+    color: #b3b8bb;
+    padding-bottom: 30px;
+  
+}
+.section7{
+    background-color: #f3f7f8;
+    height: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.button1{
+    color: #2b9765;
+    border-radius: 30px;
+    border-color: #2b9765;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    float: right;
+}
+.text4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.em{
+    float: right;
+}
+.button2 {
+    color: white;
+    background-color: #2b9765;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.text5 {
+    color: white;
+    
+}
+.card {
+    width: 400px;
 }
