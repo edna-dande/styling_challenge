@@ -36,6 +36,8 @@
     height: 480px;
     padding-left: 150px;
     padding-right: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .navigation {
     display: flex;
@@ -55,19 +57,24 @@
     float: right;
     
 }
+.navigation li {
+    margin-right: 10px;
+}
 .title {
     color: white;
     text-decoration: none;
     padding-left: 80px;
     font-size: 60px;
     padding-right: 50px;
+    align-items: center;
 }
 .text {
     text-align: justify;
     padding-left: 80px;
-    color: #b3b8bb;
+    color: white;
     padding-top: 20px;
 }
+
 .horizontal{
     color: rgb(93, 89, 89);
     padding-left: 150px;
@@ -97,13 +104,29 @@
     margin-left: 400px;
 }
 .section3{
-    background-color: #f8f4fc;
+    background-color: #f3f7f8;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 30px;
+}
+.section4{
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section5{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
 }
 .expertise{
     color: #9ca4ac;
     padding-top: 30px;
+    margin-bottom: 20px;
 }
-.container {
+.container1 {
     display: flex;
     gap: 10px;
     text-align: justify;
@@ -111,15 +134,24 @@
     padding-right: 100px;
     
 }
-.boxes {
-    display: flex;
+.color {
+    color: #2b9765;
+    
 }
+
 .images {
     display: flex;
+    border-bottom: #2b9765;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 .section8{
     background-color: #202930;
+
 }
 .last{
     padding-left: 200px;
@@ -131,11 +163,12 @@
     padding-bottom: 30px;
   
 }
-.section7{
+.section7 {
     background-color: #f3f7f8;
-    height: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 .button1{
     color: #2b9765;
@@ -162,9 +195,144 @@
     padding-right: 25px;
 }
 .text5 {
-    color: white;
+    color: grey;
     
 }
 .card {
-    width: 400px;
+    width: 250px;
+    border-bottom: solid #2b9765 5px;
+    height: 200px;
+    
 }
+.word {
+    color: gray;
+}
+.word7 {
+    float: left;
+    margin-bottom: unset;
+}
+.word8 {
+    font-size: x-small;
+    color: gray;
+}
+.blogs {
+    display: flex;
+    gap: 30px;
+}
+.section3 .blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+.container2 {
+    background-color: white;
+    width: 200px;
+    flex-basis: 30%;
+}
+.x {
+    padding-left: 10px;
+    color: gray;
+    font-size: xx-small;
+
+}
+.y {
+    float: right;
+    color: grey;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: xx-small;
+}
+.z {
+    color: gray;
+    font-size: xx-small;
+    padding-left: 10px;
+}
+.seven {
+    margin-bottom: unset;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.color2 {
+    margin-bottom: unset;
+    padding-top: 20px;
+    color: #2b9765;
+    padding-left: 10px;
+}
+.text7 {
+    text-align: justify;
+    padding-left: 80px;
+    color: white;
+    padding-top: 30px;
+    background-color: #2b9765;
+    padding-bottom: 80px;
+    margin-left: 200px;
+    padding-right: 80px;
+}
+.image4 {
+    width: 20px;
+    height: 20px;
+    margin-left: 49%;
+   
+}
+.containerea{
+    background-image: url("elective.png");
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.containermmc{
+    background-image: url("mmc.png");
+    width: 450px;
+    background-size: cover;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.containercy{
+    background-image: url("cy.png");
+    background-size: cover;
+    width: 780px;
+    height: 300px;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.size {
+    display: flex;
+    gap: 40px;
+}
+.size1 {
+    float: left;
+}
+.boxes {
+    height: 700px;
+}
+@media (max-width: 768px) {
+    .title {
+      font-size: 36px;
+    }
+  
+    .text {
+      font-size: 16px;
+    }
+  
+    .expertise {
+      font-size: 20px;
+    }
+  
+    .images .card {
+      flex-basis: 100%;
+    }
+  
+    .section4 .size {
+      flex-basis: 100%;
+    }
+  
+    .section3 .blogs .container2 {
+      flex-basis: 100%;
+    }
+  }
